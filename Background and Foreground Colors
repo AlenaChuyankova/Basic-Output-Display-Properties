@@ -1,0 +1,11 @@
+<!--CHANGE THE BACKGROUND COLOR-->
+    <!---copywrite: Udemy, Uplatz-->
+    <form>
+        <h3>Background Colors</h3>
+        <input type="button" value="pink" onclick="document.bgColor='pink'">
+        <input type="button" value="gray" onclick="document.bgColor='gray'">
+
+        <h3>Foreground Colors</h3>
+        <input type="button" value="darkgray" onclick="document.fgColor='#555555'">
+        <input type="button" value="darkgray" onclick="document.fgColor='#451926'">
+        <br>
