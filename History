@@ -9,10 +9,17 @@
                 }
                 else alert("You have been to " + histCount + " Web pages this session.")
             }
-            
-
-
             /* IN HTML
             <form>
                 <input type="button" name="activity" value="My Activity" onClick="showCount()">
-            </form>
+            </form>*/
+ //HISTORY
+
+            function showCount() {
+                var histCount = history.length;
+
+                if (histCount > 5) {
+                    (alert("You've been busy. You have vvisited " + histCount + " Web pages so far."))
+                }
+                else alert("You have been to " + histCount + " Web pages this session.")
+            }
